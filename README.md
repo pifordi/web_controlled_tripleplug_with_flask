@@ -5,7 +5,7 @@ Firstly you need to install ubilinux is based on Debian Wheezy(ehttp://www.emute
 
 And, then you need to install required software packages on the board. Use the following commands respectively;
 
-apt-get update //update package versions
+<strong>apt-get update<strong> //update package versions
 
 apt-get install python-pip //install python package manager. it will be used to install some python modules
     pip install wiring-x86  //install wiring module for Galileo based on i386 (http://wiring-x86.readthedocs.org/)
