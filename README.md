@@ -8,23 +8,28 @@ Firstly you need to install ubilinux is based on Debian Wheezy(ehttp://www.emute
 <p>
 And, then you need to install required software packages on the board. Use the following commands respectively;
 
+<p>
 <strong>apt-get update</strong> //update package versions
-
+</p>
+<p>
 <strong>apt-get install python-pip</strong> //install python package manager. it will be used to install some python modules
     pip install wiring-x86  //install wiring module for Galileo based on i386 (http://wiring-x86.readthedocs.org/)
     pip install Flask  //install python microweb frame work is main module for us (http://flask.pocoo.org/)
-    
+</p>  
+<p>
 <strong>apt-get install tmux</strong>  //tmus is a terminal managing tool for linux. you can create one more than terminal. localtunnel and flask                         //has debug console and we need to use 2 terminal window for each one
     (Ctrl-b) + n : Move to next window
     (Ctrl-b) + p : Move to previous window
     (Ctrl-b) + w : Interactively choose the window (useful if you have more than 2 window)
     (Ctrl-b) + & : Close a window, simply press
-
+</p>
+<p>
 <strong>apt-get install --yes nodejs</strong> // install nodejs to use localtunnel is used for sharing local server globally. i.e. your server has                              //global ip and it is accesable globally on all over the world
-
+</p>
+<p>
 <strong>apt-get install npm</strong>  // install node pas-ckage manager to install localtunnel
     npm install --save localtunnel //install localtunnel (http://localtunnel.me/) 
-    
+</p>    
 <p>
 Fianlly, Galileo is ready for evaluate our icto_v1.py(main script) and galileotoworld.js(localtunnel)
 The circuit part of the project is easy and not required improved skills for construct them. We use a relay module which works with 5V and some jumpers to connect it on Galileo pins.
