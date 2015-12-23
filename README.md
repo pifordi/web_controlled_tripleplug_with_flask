@@ -7,6 +7,7 @@ Firstly you need to install ubilinux is based on Debian Wheezy(ehttp://www.emute
 
 <p>
 And, then you need to install required software packages on the board. Use the following commands respectively;
+</p>
 
 <p>
 <strong>apt-get update</strong> //update package versions
@@ -23,15 +24,17 @@ And, then you need to install required software packages on the board. Use the f
 <p>
 <strong>apt-get install tmux</strong>  //tmus is a terminal managing tool for linux. you can create one more than terminal. localtunnel and flask                         //has debug console and we need to use 2 terminal window for each one
 </p>
-    <p>(Ctrl-b) + n : Move to next window</p>
-    <p>
-    (Ctrl-b) + p : Move to previous window
-    </p>
-    <p>(Ctrl-b) + w : Interactively choose the window (useful if you have more than 2 window)
-    </p>
-    <p>
-    (Ctrl-b) + & : Close a window, simply press
-    </p>
+<p>
+(Ctrl-b) + n : Move to next window
+</p>
+<p>
+(Ctrl-b) + p : Move to previous window
+</p>
+<p>(Ctrl-b) + w : Interactively choose the window (useful if you have more than 2 window)
+</p>
+<p>
+(Ctrl-b) + & : Close a window, simply press
+</p>
 <p>
 <strong>apt-get install --yes nodejs</strong> // install nodejs to use localtunnel is used for sharing local server globally. i.e. your server has                              //global ip and it is accesable globally on all over the world
 </p>
