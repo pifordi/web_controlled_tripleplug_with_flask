@@ -13,8 +13,8 @@ And, then you need to install required software packages on the board. Use the f
 </p>
 <p>
 <strong>apt-get install python-pip</strong> //install python package manager. it will be used to install some python modules
-    pip install wiring-x86  //install wiring module for Galileo based on i386 (http://wiring-x86.readthedocs.org/)
-    pip install Flask  //install python microweb frame work is main module for us (http://flask.pocoo.org/)
+    <strong>pip install wiring-x86</strong>  //install wiring module for Galileo based on i386 (http://wiring-x86.readthedocs.org/)
+    <strong>pip install Flask</strong>  //install python microweb frame work is main module for us (http://flask.pocoo.org/)
 </p>  
 <p>
 <strong>apt-get install tmux</strong>  //tmus is a terminal managing tool for linux. you can create one more than terminal. localtunnel and flask                         //has debug console and we need to use 2 terminal window for each one
