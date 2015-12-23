@@ -22,17 +22,24 @@ And, then you need to install required software packages on the board. Use the f
 </p>
 <p>
 <strong>apt-get install tmux</strong>  //tmus is a terminal managing tool for linux. you can create one more than terminal. localtunnel and flask                         //has debug console and we need to use 2 terminal window for each one
-    (Ctrl-b) + n : Move to next window
-    (Ctrl-b) + p : Move to previous window
-    (Ctrl-b) + w : Interactively choose the window (useful if you have more than 2 window)
-    (Ctrl-b) + & : Close a window, simply press
 </p>
+    <p>(Ctrl-b) + n : Move to next window</p>
+    <p>
+    (Ctrl-b) + p : Move to previous window
+    </p>
+    <p>(Ctrl-b) + w : Interactively choose the window (useful if you have more than 2 window)
+    </p>
+    <p>
+    (Ctrl-b) + & : Close a window, simply press
+    </p>
 <p>
 <strong>apt-get install --yes nodejs</strong> // install nodejs to use localtunnel is used for sharing local server globally. i.e. your server has                              //global ip and it is accesable globally on all over the world
 </p>
 <p>
 <strong>apt-get install npm</strong>  // install node pas-ckage manager to install localtunnel
-    npm install --save localtunnel //install localtunnel (http://localtunnel.me/) 
+</p>
+<p>
+    <strong>npm install --save localtunnel //install localtunnel (http://localtunnel.me/) </strong>
 </p>    
 <p>
 Fianlly, Galileo is ready for evaluate our icto_v1.py(main script) and galileotoworld.js(localtunnel)
